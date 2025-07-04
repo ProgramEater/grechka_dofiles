@@ -13,7 +13,7 @@ fi
 
 # check if wallpaper exists
 if [ ! -f "$1" ]; then
-	echo "$1 doesn\'t exist"
+	echo "`basename $0`: $1 doesn't exist"
 	echo
 else
 	sed -i -e "s|\$WALLPAPER *=.*|\$WALLPAPER = \"$1\"|" "$HOME/.config/hypr/theme.conf"

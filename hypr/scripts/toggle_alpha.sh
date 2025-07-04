@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cur_alpha=$(hyprctl getoption decoration:active_opacity | grep "float:" | awk '{print $2}' )
-low_opacity=0.85
+low_opacity=0.88
 
 if [[ $cur_alpha =~ 1\.[0-9]* ]]; then
 	hyprctl keyword decoration:active_opacity "$low_opacity"

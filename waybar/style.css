@@ -1,5 +1,5 @@
 /* @import "default_colors.css"; IF YOU DONT HAVE THEME UCOMMENT */
-@import "themes/vrubel/waybar_colors.css";
+@import "themes/default/waybar_colors.css";
 
 * {
     border: none;
